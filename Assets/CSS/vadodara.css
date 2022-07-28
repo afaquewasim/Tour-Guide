@@ -196,27 +196,27 @@ body {
 }
 .card__picture--1 {
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
-    url(Images/Hyderabad.jpg);
+    url(../Images/Charminar.jpg);
 }
 .card__picture--2 {
   background-image: linear-gradient(to right bottom, #7edf6f, #28b485),
-    url(Images/Delhi.jpg);
+    url(../Images/Golconda.png);
 }
 .card__picture--3 {
   background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
-    url(Images/Varanashi.jpg);
+    url(../Images/salarjung.jpg);
 }
 .card__picture--4 {
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
-    url(Images/Jaipur.jpg);
+    url(../Images/Hussain\ Sagar.jpg);
 }
 .card__picture--5 {
   background-image: linear-gradient(to right bottom, #7edf6f, #28b485),
-    url(Images/Gaya.jpg);
+    url(../Images/Ramoji\ film\ city.jpg);
 }
 .card__picture--6 {
   background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
-    url(Images/Vadodara.jpg);
+    url(../Images/chowmahlla.jpeg);
 }
 .card__heading {
   font-size: 2.8rem;
@@ -304,15 +304,18 @@ body {
   padding: 3rem;
 }
 .card__details ul {
+  margin-top: 10px;
   list-style: none;
   width: 80%;
   margin: 0 auto;
 }
 .card__details ul li {
+  margin-top: 30px;
   text-align: center;
   text-transform: capitalize;
   font-size: 1.5rem;
   padding: 1rem;
+  color: #000;
 }
 .card__details ul li:not(:last-child) {
   border-bottom: 1px solid #eee;
@@ -472,5 +475,3 @@ body {
     padding: 20rem 0 10rem 0;
   }
 }
-
-
