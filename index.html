@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="follow,index" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-Based Tour Guide</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"
+    />
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-25065548-2');
+    </script>
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="content-left">
+        <div class="form-wrapper">
+          <div class="logo">
+            <img src="images/Logo.png" alt="Logo" width="80" height="80">
+          </div>
+          <h1 class="text-title">Log In</h1>
+          <div class="field-group">
+            <label class="label" for="txt-email">Username</label>
+            <input class="input" type="text" id="txt-email" name="email" />
+          </div>
+          <div class="field-group">
+            <div class="label-wrapper">
+              <label class="label" for="txt-password">Password</label>
+              <label class="label label--right" onclick="tooglePassword()">
+                <span class="label-text">Show</span>
+              </label>
+            </div>
+            <input class="input" type="password" id="txt-password" name="password" />
+          </div>
+
+          <div class="field-group">
+            <input class="btn-submit" type="submit" value="Log In" />
+          </div>
+
+          <div class="field-group">
+            <label class="checkbox-label"
+              >Keep me logged in
+              <input type="checkbox" />
+              <span class="checkbox-checkmark"></span>
+            </label>
+          </div>
+          <div>Don't have an account? <a href="#register">Create an account</a></div>
+
+          <div class="field-group text-center">
+            <a href="#forgot-username">Forgot username?</a><span> · </span
+            ><a href="#forgot-password">Forgot password?</a>
+          </div>
+        </div>
+      </div>
+      <div class="content-right">
+        <div class="content-right-text">
+          <h1>Web-Based Tour Guide</h1>
+          <span>
+            This is a virtual tour guide application.
+            It will show you the nearest tourist destinations from well-known one to the least known.
+            After Log-in you can search for any cities or can view nearest tourist destination based on your current location.
+            </span
+          >
+        </div>
+        <a class="link-custom-domain" href="LandingPage.html"> Continue without Login </a>
+      </div>
+    </div>
+
+    <footer>
+      <a href=""> Back to Home </a>
+      <span> </span>
+      <span class="author">
+        Crafted by Yazdan, © 2022
+      </span>
+    </footer>
+    <script>
+      function a() {
+        var p = document.querySelector('#txt-password');
+        var t = document.querySelector('.label-text');
+        var ey = document.querySelector('.eye');
+        var eyo = document.querySelector('.eye-off');
+        var currType = p.getAttribute('type');
+
+        if (currType === 'password') {
+          t.innerHTML = 'Hide';
+          p.setAttribute('type', 'text');
+          ey.classList.replace('is--show', 'is--hide');
+          eyo.classList.replace('is--hide', 'is--show');
+        } else {
+          t.innerHTML = 'Show';
+          p.setAttribute('type', 'password');
+          eyo.classList.replace('is--show', 'is--hide');
+          ey.classList.replace('is--hide', 'is--show');
+        }
+      }
+      window.tooglePassword = a;
+    </script>
+  </body>
+</html>
