@@ -75,10 +75,11 @@ a:hover {
     width: 100%;
   }
 
-  .content-right {
-    width: 100%;
-    display: none;
-  }
+  .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .logo {
