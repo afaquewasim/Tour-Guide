@@ -40,8 +40,7 @@ a:hover {
 
 .content-right {
   height: 100%;
-  flex-grow: 1;
-  background-image: url("./undraw_my_password_d6kg.svg");
+  background-image: url("/images/trekking.png");
   background-color: #f7f7f7;
   background-position-y: 350px;
   background-position-x: center;
@@ -49,7 +48,20 @@ a:hover {
   background-repeat: no-repeat;
   padding: 10% 5em;
   text-align: center;
+  width: 100%;
+  padding: 150px 0;
+  margin-right: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #aaaa;
+  vertical-align: top;
 }
+  /* .content-right-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
 
 .form-wrapper {
   width: 448px;
@@ -64,6 +76,7 @@ a:hover {
   }
 
   .content-right {
+    width: 100%;
     display: none;
   }
 }
@@ -71,10 +84,6 @@ a:hover {
 .logo {
   text-align: center;
 }
-
-/* .logo img {
-  width: 2000px;
-} */
 
 .text-title {
   text-align: center;
@@ -222,6 +231,7 @@ a:hover {
   display: inline-block;
   text-decoration: none;
   color: #241c15;
+  align-items: center;
 }
 
 .link-custom-domain:hover {
