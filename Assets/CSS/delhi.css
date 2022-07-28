@@ -196,27 +196,27 @@ body {
 }
 .card__picture--1 {
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
-    url(../Images/Charminar.jpg);
+    url(../Images/jamaMashjid.jpg);
 }
 .card__picture--2 {
   background-image: linear-gradient(to right bottom, #7edf6f, #28b485),
-    url(../Images/Golconda.png);
+    url(../Images/RedFort.jpg);
 }
 .card__picture--3 {
   background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
-    url(../Images/salarjung.jpg);
+    url(../Images/HumayunTomb.jpeg);
 }
 .card__picture--4 {
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
-    url(../Images/Hussain\ Sagar.jpg);
+    url(../Images/Akshardham.jpg);
 }
 .card__picture--5 {
   background-image: linear-gradient(to right bottom, #7edf6f, #28b485),
-    url(../Images/Ramoji\ film\ city.jpg);
+    url(../Images/indiaGate.webp);
 }
 .card__picture--6 {
   background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
-    url(../Images/chowmahlla.jpeg);
+    url(../Images/LotusTemple.jpeg);
 }
 .card__heading {
   font-size: 2.8rem;
