@@ -16,12 +16,12 @@ html {
   margin: 0;
 }
 
-a {
+.link {
   color: #006570;
   text-decoration: underline;
 }
 
-a:hover {
+.link:hover {
   color: #004e56;
 }
 
@@ -48,9 +48,9 @@ a:hover {
   background-repeat: no-repeat;
   padding: 10% 5em;
   text-align: center;
-  width: 100%;
-  padding: 150px 0;
+  width: 70%;
   margin-right: 2px;
+  padding: 150px 20px;
   display: inline-block;
   box-sizing: border-box;
   border-radius: 8px;
@@ -65,15 +65,27 @@ a:hover {
   margin: 0 auto;
 }
 
+.footer {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 @media screen and (max-width: 1000px) {
   .content-left {
     width: 100%;
   }
 
+  .content-right {
+      width: 100%;
+  }
+  
   .content{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        height: auto;
     }
 }
 
